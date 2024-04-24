@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "First_name": "Gurg",
+    "Last_name": "Snarl",
+    "Class": "Doom Caster",
+    "Program": "Dark Arts",
+    "Description": "A large and terrifying creature with fangs and a body covered in spikes."
+  },
+  {
+    "Id": 2,
+    "First_name": "Zarvox",
+    "Last_name": "Skullrattle",
+    "Class": "Venomancer",
+    "Program": "Master of Poisons",
+    "Description": "A sleek creature with jet-black skin and green glowing eyes."
+  },
+  {
+    "Id": 3,
+    "First_name": "Griznak",
+    "Last_name": "Doomhowl",
+    "Class": "Soul Devourer",
+    "Program": "Necromancy",
+    "Description": "A skeletal figure draped in tattered robes, emanating an aura of death."
+  },
+  {
+    "Id": 4,
+    "First_name": "Slythra",
+    "Last_name": "Venomtongue",
+    "Class": "Serpent Sorceress",
+    "Program": "Potioncraft",
+    "Description": "A seductive snake-like being with mesmerizing eyes and scales that glisten in moonlight."
+  },
+  {
+    "Id": 5,
+    "First_name": "Thorn",
+    "Last_name": "Darkroot",
+    "Class": "Shadow Stalker",
+    "Program": "Stealth Tactics",
+    "Description": "A shadowy figure with piercing red eyes, moving silently through the darkness."
+  },
+  {
+    "Id": 6,
+    "First_name": "Goruk",
+    "Last_name": "Bloodfury",
+    "Class": "Brute Berserker",
+    "Program": "Barbaric Combat",
+    "Description": "A towering behemoth with muscles rippling beneath crimson fur, wielding a massive club."
+  },
+  {
+    "Id": 7,
+    "First_name": "Xal'Thar",
+    "Last_name": "Dreadwing",
+    "Class": "Demonic Warlock",
+    "Program": "Infernal Sorcery",
+    "Description": "A demonic being with bat-like wings and eyes that smolder with infernal flames."
+  },
+  {
+    "Id": 8,
+    "First_name": "Nyx",
+    "Last_name": "Shadowclaw",
+    "Class": "Nightmare Weaver",
+    "Program": "Dream Manipulation",
+    "Description": "A shadowy feline creature with glowing violet eyes, haunting dreams with its presence."
+  },
+  {
+    "Id": 9,
+    "First_name": "Vex",
+    "Last_name": "Doomclaw",
+    "Class": "Doombringer",
+    "Program": "Chaos Theory",
+    "Description": "A sinister figure wreathed in dark energy, spreading chaos wherever it treads."
+  },
+  {
+    "Id": 10,
+    "First_name": "Luna",
+    "Last_name": "Moonhowl",
+    "Class": "Lunar Priestess",
+    "Program": "Celestial Magic",
+    "Description": "A mystical being with shimmering silver fur, attuned to the phases of the moon."
+  }
+]
