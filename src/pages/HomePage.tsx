@@ -1,6 +1,7 @@
 import { Button } from "../components/Button/Button";
 import { DropDown } from "../components/DropDown/DropDown";
 import { Outlet, useNavigate } from "react-router-dom";
+import "./HomePage.scss";
 
 export const HomePage = () => {
   const navigate = useNavigate();
@@ -10,12 +11,13 @@ export const HomePage = () => {
   };
 
   return (
-    <>
-      <h1>HomePage</h1>
-      <h2>Welcome to Monsters University!</h2>
-      <DropDown />
-      <Button buttonName="New Monster" handleClick={ToAddPage} />
+    <div className="HomePage">
+      <h1 className="HomePageTitle">Welcome to Monsters University!</h1>
+      <div className="HomePageButtons">
+        <Button buttonName="New Monster" handleClick={ToAddPage} />
+        <DropDown />
+      </div>
       <Outlet />
-    </>
+    </div>
   );
 };

@@ -1,0 +1,13 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+
+  .HomePageTitle {
+    font-size: xx-large;
+    font-weight: 800;
+  }
+  .HomePageButtons {
+    display: flex;
+    flex-direction: column;
+  }
+}
