@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        //FIXA, ID FINNS INTE LÄNGRE, MÅSTE SORTERA VIA NAMN EL. LIKNANDE
         path: "monster/:id",
         element: <MonsterPage />,
       },
