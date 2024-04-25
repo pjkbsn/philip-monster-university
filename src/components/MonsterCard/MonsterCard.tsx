@@ -14,8 +14,8 @@ export const MonsterCard = ({ chosenMonster }: MonsterProp) => {
   console.log(chosenMonster);
   const navigate = useNavigate();
 
-  const removeCard = (id: number) => {
-    dispatch({ type: "REMOVE_MONSTER", payload: id });
+  const removeCard = (firstName: string) => {
+    dispatch({ type: "REMOVE_MONSTER", payload: firstName });
     navigate("/");
   };
 
@@ -23,7 +23,6 @@ export const MonsterCard = ({ chosenMonster }: MonsterProp) => {
     <>
       <div className="MonsterCard">
         All info här:
-        <p>{chosenMonster.Id}</p>
         <h1>{chosenMonster.First_name}</h1>
         <p>{chosenMonster.Last_name}</p>
         <p>{chosenMonster.Class}</p>
@@ -31,7 +30,7 @@ export const MonsterCard = ({ chosenMonster }: MonsterProp) => {
         <p>{chosenMonster.Program}</p>
         <Button
           buttonName="Delete"
-          handleClick={() => removeCard(chosenMonster.Id)}
+          handleClick={() => removeCard(chosenMonster.First_name)}
         />
       </div>
     </>
