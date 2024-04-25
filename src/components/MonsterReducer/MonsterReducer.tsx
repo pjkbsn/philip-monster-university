@@ -6,7 +6,7 @@ export const MonsterReducer = (state: MonsterType[], action: MonsterAction) => {
       return [...state, action.payload];
     case "REMOVE_MONSTER":
       return state.filter(
-        (monster: MonsterType) => monster.First_name !== action.payload
+        (monster: MonsterType) => monster.Id !== action.payload
       );
     default:
       return state;

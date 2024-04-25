@@ -1,7 +1,7 @@
 import { ReactNode, useReducer } from "react";
 import { MonsterReducer } from "../MonsterReducer/MonsterReducer";
 import { MonsterContext } from "../MonsterContext/MonsterContext";
-import { monsterArray } from "../../monsterTypes";
+import { updatedMonster } from "../../data/monsterArray";
 // import { monsterArray } from "../../monsterTypes";
 
 type MonsterProviderProps = {
@@ -11,7 +11,7 @@ type MonsterProviderProps = {
 export const MonsterProvider: React.FC<MonsterProviderProps> = ({
   children,
 }) => {
-  const [currentState, dispatch] = useReducer(MonsterReducer, monsterArray);
+  const [currentState, dispatch] = useReducer(MonsterReducer, updatedMonster);
 
   return (
     <MonsterContext.Provider

@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         //FIXA, ID FINNS INTE LÄNGRE, MÅSTE SORTERA VIA NAMN EL. LIKNANDE
-        path: "monster/:id",
+        path: "monster/:Id",
         element: <MonsterPage />,
       },
     ],

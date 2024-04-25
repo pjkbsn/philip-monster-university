@@ -3,6 +3,7 @@ import { Button } from "../Button/Button";
 import "./AddMonster.scss";
 import { useContext, useState } from "react";
 import { MonsterContext } from "../MonsterContext/MonsterContext";
+import { v4 as uuidv4 } from "uuid";
 
 export const AddMonster = () => {
   const { dispatch } = useContext(MonsterContext);
@@ -17,6 +18,7 @@ export const AddMonster = () => {
     dispatch({
       type: "ADD_MONSTER",
       payload: {
+        Id: uuidv4(),
         First_name: firstName,
         Last_name: lastName,
         Class: monsterClass,

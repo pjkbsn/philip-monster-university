@@ -1,6 +1,7 @@
-import monsters from "./monsters.json";
+// import monsters from "./monsters.json";
 
 export type MonsterType = {
+  Id: string;
   First_name: string;
   Last_name: string;
   Class: string;
@@ -17,4 +18,4 @@ export type MonsterAction =
   | { type: "ADD_MONSTER"; payload: MonsterType }
   | { type: "REMOVE_MONSTER"; payload: string };
 
-export const monsterArray = monsters;
+// export const monsterArray = monsters;
